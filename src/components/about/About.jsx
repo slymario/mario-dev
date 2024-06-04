@@ -27,16 +27,20 @@ const About = () => {
             <article className='about__card'>
               <FaUsers className='about__icon'/>
               <h5>Clients</h5>
-              <small>10+ Worldwide</small>
+              <small>3+ Worldwide</small>
             </article>
             <article className='about__card'>
               <FaFolder className='about__icon'/>
               <h5>Projects</h5>
-              <small>5+ Completed</small>
+              <small>3+ Completed</small>
             </article>
           </div>
           <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio totam, a necessitatibus corporis illum fugit provident eos iure labore, rem deserunt vero voluptas repudiandae, ut ad molestiae doloremque deleniti pariatur!
+            Hello! I'm a passionate and dedicated Fullstack Developer with a strong foundation in both front-end and back-end technologies. My journey into the world of web development began with a curiosity for how things work behind the scenes and has since blossomed into a full-fledged career.
+            I specialize in creating seamless, responsive, and user-friendly web applications using a variety of technologies, including HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB. My approach to development is centered around writing clean, efficient code and continuously learning to stay up-to-date with the latest industry trends and best practices. 
+            I thrive on solving complex problems and bringing creative ideas to life through code. Whether I'm working on a dynamic front-end interface or an efficient back-end system, my goal is always to deliver high-quality, scalable solutions that provide an excellent user experience. 
+            When I'm not coding, you can find me exploring new tech, contributing to open-source projects, or enjoying a good book. I'm excited to collaborate on innovative projects and bring your vision to reality. 
+            Feel free to explore my portfolio and reach out if you'd like to connect or work together!
           </p>
 
           <a href="#contact" className="btn btn-primary">Let's Talk</a>
@@ -46,4 +50,4 @@ const About = () => {
   )
 }
 
-export default About
+export default About;

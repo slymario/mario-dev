@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./Nav.css"
 import { FaHome } from "react-icons/fa";
 import { FaUserAlt } from "react-icons/fa";
@@ -8,15 +8,59 @@ import { TiMessages } from "react-icons/ti";
 
 
 const Nav = () => {
-  const [activeNav, setActiveNav] = useState("#");
+  const [activeNav, setActiveNav] = useState("#home");
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
 
   return (
     <nav>
-      <a href="#" onClick={() => setActiveNav("#")} className={activeNav === "#" ? "active" : ""}><FaHome/></a>
-      <a href="#about" onClick={() => setActiveNav("#about")} className={activeNav === "#about" ? "active" : ""}><FaUserAlt/></a>
-      <a href="#experience" onClick={() => setActiveNav("#experience")} className={activeNav === "#experience" ? "active" : ""}><FaBook/></a>
-      <a href="#services" onClick={() => setActiveNav("#services")} className={activeNav === "#services" ? "active" : ""}><GrBusinessService/></a>
-      <a href="#contact" onClick={() => setActiveNav("#contact")} className={activeNav === "#contact" ? "active" : ""}><TiMessages/></a>
+      <a 
+        href="#home" 
+        onClick={() => setActiveNav("#home")} 
+        className={activeNav === "#home" ? "active" : ""} 
+        title="Home"
+      >
+        <FaHome/>
+      </a>
+
+      <a 
+        href="#about" 
+        onClick={() => setActiveNav("#about")} 
+        className={activeNav === "#about" ? "active" : ""} 
+        title="About"
+      >
+        <FaUserAlt/>
+      </a>
+
+      <a 
+        href="#experience" 
+        onClick={() => setActiveNav("#experience")} 
+        className={activeNav === "#experience" ? "active" : ""} 
+        title="Experience"
+      >
+        <FaBook/>
+      </a>
+
+      <a 
+        href="#services" 
+        onClick={() => setActiveNav("#services")} 
+        className={activeNav === "#services" ? "active" : ""} 
+        title="Services"
+      >
+        <GrBusinessService/>
+      </a>
+
+      <a 
+        href="#contact" 
+        onClick={() => setActiveNav("#contact")} 
+        className={activeNav === "#contact" ? "active" : ""} 
+        title="Contact"
+      >
+        <TiMessages/>
+      </a>
+
     </nav>
   )
 }

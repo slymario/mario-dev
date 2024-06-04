@@ -10,22 +10,22 @@ const data = [
     id: 1,
     image: IMG1,
     title: "Elis Fragrance Website",
-    github: "https://github.com",
-    demo: "https://dribbble.com/clickable_design"
+    github: "https://github.com/slymario/elis-store",
+    // demo: "https://dribbble.com/clickable_design"
   },
   {
     id: 2,
     image: IMG2,
     title: "Blog Web App",
-    github: "https://github.com",
-    demo: "https://dribbble.com/clickable_design"
+    github: "https://github.com/slymario/amaka-blog",
+    // demo: "https://dribbble.com/clickable_design"
   },
   {
     id: 3,
     image: IMG3,
     title: "Fodd Delivery Landing Page",
     github: "https://github.com",
-    demo: "https://dribbble.com/clickable_design"
+    // demo: "https://dribbble.com/clickable_design"
   },
 ]
 
@@ -38,7 +38,7 @@ const Portfolio = () => {
 
       <div className="container portfolio__container">
         {
-          data.map(({id, image, title, github,demo}) => {
+          data.map(({id, image, title, github}) => {
             return (
               <article key={id} className="portfolio__item">
                 <div className="portfolio__item-image">
@@ -47,7 +47,7 @@ const Portfolio = () => {
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
                   <a href={github} className="btn" target="blank">Github</a>
-                  <a href={demo} className="btn btn-primary" target="blank">Live Demo</a>
+                  {/* <a href={demo} className="btn btn-primary" target="blank">Live Demo</a> */}
                 </div>
               </article>
             )

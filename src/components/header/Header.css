@@ -38,15 +38,15 @@ header {
 
 /* ================== MY IMAGE ================ */
 .me {
-    background: linear-gradient(var(--color-primary), transparent);
-    width: 22rem;
-    height: 30rem;
+    /* background: linear-gradient(var(--color-primary), transparent); */
+    width: 21rem;
+    height: 70%;
     position: absolute;
     left: calc(50% - 11rem);
-    margin-top: 4rem;
+    margin-top: 2rem;
     border-radius: 12rem 12rem 0 0;
     overflow: hidden;
-    padding: 5rem 1.5rem 1.5rem 1.5rem;
+    /* padding: 5rem 1.5rem 1.5rem 1.5rem; */
 }
 
 /* ================== SCROLL DOWN ================ */
@@ -75,5 +75,13 @@ header {
 
     .header__socials, .scroll__down {
         display: none;
+    }
+    .me {
+        width: 70%; /* Use a percentage to keep it responsive */
+        height: auto; /* Let the height adjust according to the width */
+        top: 20vh; /* Adjust the position relative to the viewport height */
+        left: 50%;
+        transform: translateX(-50%);
+        margin-top: 10rem; /* Remove margin-top to better control the positioning */
     }
 }

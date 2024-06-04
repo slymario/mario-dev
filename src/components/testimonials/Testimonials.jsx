@@ -15,18 +15,18 @@ import 'swiper/css/navigation';
 const data = [
   {
     avatar: AVTR1,
-    name: "Nneoma Nwamaka",
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eveniet, optio earum nesciunt perferendis natus. Libero, repellendus, quae aperiam optio deserunt, beatae sint vero dolorem incidunt autem esse expedita repudiandae!"
+    name: "Misheal - Client",
+    review: "From start to finish, Mr. Obinna demonstrated exceptional skill and professionalism. He delivered a robust and scalable application that has significantly improved our business operations. Their ability to solve complex problems and provide innovative solutions is truly impressive."
   },
   {
     avatar: AVTR2,
-    name: "Jane Ibeh",
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eveniet, optio earum nesciunt perferendis natus. Libero, repellendus, quae aperiam optio deserunt, beatae sint vero dolorem incidunt autem esse expedita repudiandae!"
+    name: "Jane Ibeh - Colleague",
+    review: "Mr Obinna is an exceptional fullstack developer. His ability to seamlessly integrate front-end design with back-end functionality is impressive. He's a reliable and innovative team player who consistently delivers high-quality work"
   },
   {
     avatar: AVTR3,
-    name: "Samuel Odii",
-    review: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi eveniet, optio earum nesciunt perferendis natus. Libero, repellendus, quae aperiam optio deserunt, beatae sint vero dolorem incidunt autem esse expedita repudiandae!"
+    name: "Samuel Odii - Colleague",
+    review: "Mr Obinna is a fullstack developer par excellence. His expertise spans across various technologies and frameworks, making them incredibly versatile. He's proactive, reliable, and always willing to go the extra mile to ensure project success."
   }
 ]
 

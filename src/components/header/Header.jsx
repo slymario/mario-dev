@@ -1,12 +1,12 @@
 import React from "react";
 import "./Header.css";
 import CallToAction from "./CallToAction";
-import ME from "../../assets/me.png";
+import ME from "../../assets/me5.png";
 import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {
   return (
-    <header>
+    <header id="home">
       <div className="container header__container">
         <h5>Hello, I'm</h5>
         <h1>Nwobodo Obinna</h1>
@@ -24,4 +24,4 @@ const Header = () => {
   )
 }
 
-export default Header
+export default Header;

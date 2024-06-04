@@ -78,13 +78,6 @@ const Experience = () => {
             <article className="experience__details">
               <BsPatchCheckFill className="icons" />
               <div>
-                <h4>PHP</h4>
-                <small className="text-light">Beginner</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <BsPatchCheckFill className="icons" />
-              <div>
                 <h4>NoSQL</h4>
                 <small className="text-light">Experienced</small>
               </div>
@@ -94,6 +87,47 @@ const Experience = () => {
               <div>
                 <h4>Express</h4>
                 <small className="text-light">Experienced</small>
+              </div>
+            </article>
+          </div>
+        </div>
+
+        <div className="experince__backend">
+        <h3>Wordpress</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <BsPatchCheckFill className="icons" />
+              <div>
+                <h4>Installation and Setup</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="icons" />
+              <div>
+                <h4>Plugin Management</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="icons" />
+              <div>
+                <h4>SEO Optimization</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+              </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="icons" />
+              <div>
+                <h4>Theme Installation</h4>
+                <small className="text-light">Intermediate</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <BsPatchCheckFill className="icons" />
+              <div>
+                <h4>API Integration</h4>
+                <small className="text-light">Intermediate</small>
               </div>
             </article>
           </div>

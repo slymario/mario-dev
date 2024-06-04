@@ -1,6 +1,5 @@
 import React from "react";
 import "./Services.css"
-import { FaCheck } from "react-icons/fa";
 import { IoMdCheckmarkCircleOutline } from "react-icons/io";
 
 const Services = () => {
