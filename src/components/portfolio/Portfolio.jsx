@@ -23,8 +23,8 @@ const data = [
   {
     id: 3,
     image: IMG3,
-    title: "Fodd Delivery Landing Page",
-    github: "https://github.com",
+    title: "Docplanner Group Landing Page",
+    github: "https://github.com/slymario/docplanner",
     // demo: "https://dribbble.com/clickable_design"
   },
 ]

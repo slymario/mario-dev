@@ -1,7 +1,7 @@
 import React from "react";
 import "./Header.css";
 import CallToAction from "./CallToAction";
-import ME from "../../assets/me5.png";
+import ME from "../../assets/me1.png";
 import HeaderSocials from "./HeaderSocials";
 
 const Header = () => {

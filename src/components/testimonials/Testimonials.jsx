@@ -16,7 +16,7 @@ const data = [
   {
     avatar: AVTR1,
     name: "Misheal - Client",
-    review: "From start to finish, Mr. Obinna demonstrated exceptional skill and professionalism. He delivered a robust and scalable application that has significantly improved our business operations. Their ability to solve complex problems and provide innovative solutions is truly impressive."
+    review: "From start to finish, Mr. Obinna demonstrated exceptional skill and professionalism. He delivered a robust and scalable blog web application that has significantly improved my quest for writing. His ability to solve complex problems and provide innovative solutions is truly impressive."
   },
   {
     avatar: AVTR2,

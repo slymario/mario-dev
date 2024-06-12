@@ -1,6 +1,6 @@
 import React from 'react'
 import "./About.css";
-import ABOUT from "../../assets/about.png"
+import ABOUT from "../../assets/about1.png"
 import { FaAward } from "react-icons/fa6";
 import { FaUsers } from "react-icons/fa6";
 import { FaFolder } from "react-icons/fa";
@@ -32,7 +32,7 @@ const About = () => {
             <article className='about__card'>
               <FaFolder className='about__icon'/>
               <h5>Projects</h5>
-              <small>3+ Completed</small>
+              <small>2+ Completed</small>
             </article>
           </div>
           <p>
