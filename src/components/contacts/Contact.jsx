@@ -48,14 +48,14 @@ const Contact = () => {
             <FaWhatsapp className="contact__icon"/>
             <h4>Whatsapp</h4>
             <h5>+234 806 818 6317</h5>
-            <a href="https://wa.me/2348068186317" target="_blank">Send a message</a>
+            <a href="https://wa.me/2348068186317" target="_blank" rel="noopener noreferrer">Send a message</a>
           </article>
 
           <article className="contact__option">
             <BsMessenger className="contact__icon" />
             <h4>Messanger</h4>
             <h5>Nwobodo Mario Obinna</h5>
-            <a href="https://m.me/nwobodo1" target="_blank">Send a message</a>
+            <a href="https://m.me/nwobodo1" target="_blank" rel="noopener noreferrer">Send a message</a>
           </article>
         </div>
         {/* END OF CONTACT OPTIONS */}
